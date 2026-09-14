@@ -17,9 +17,9 @@ MonoBehaviour:
     changeSpeed: 0.25
     maxLiftToWeightRatio: 1.8
   stability:
-    strength: 20000
-    damping: 8000
-    maxTorque: 30000
+    strength: 16000
+    damping: 6000
+    maxTorque: 25000
   move:
     maxPitchAngle: 15
     maxRollAngle: 15
@@ -28,7 +28,7 @@ MonoBehaviour:
     rateStrength: 12000
     maxTorque: 20000
   drag:
-    coefficients: {x: 320, y: 200, z: 120}
+    coefficients: {x: 80, y: 50, z: 30}
   groundEffect:
     enabled: 1
     height: 5
